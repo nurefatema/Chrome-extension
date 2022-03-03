@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+ }
+ @font-face {
+    font-family: myFont;
+    src: url(Hamston.ttf);
+ 
+ }
+ 
+ * {
+    font-family: myFont;
+ }
+ input{
+  padding:10px;
+  width:100%;
+  box-sizing: border-box;
+  border:2px solid #2BAC16;
+  outline: none;
+ }
+ button:hover{
+    background-color: #13b313;
+    color: darkgreen;
+ }
+ button{
+     background: #2BAC16;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-right:20px;
+     padding-left:20px;
+     margin-top:10px;
+     font-weight: bold;
+     font-size:20px;
+     color:white;
+     border:1px solid #2BAC16;
+ }
+ #btn-d{
+     background: white;
+     color:#2BAC16
+     
+ }
+ #btn-d:hover{
+    background-color: #e71212;
+    color: rgb(15, 3, 3);
+ }
+ ul{
+     list-style: none;
+     padding-left:0px;
+     
+ }
+ li{
+     margin-bottom:5px;
+ }
+ a{
+    color:#2BAC16;
+ }
